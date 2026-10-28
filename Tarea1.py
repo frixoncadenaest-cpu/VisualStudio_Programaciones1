@@ -1,15 +1,16 @@
 print ("Hola mundo Python")
+#Enteros
 suma=0
 a=5
 b=6
 suma = a+b
 print (suma)
 print (type(suma))
-#String
+#Textos
 nombre= "Frixon"
 print (nombre)
 print (type(nombre))
-#float
+#flotantes
 promedio=8.5
 print (promedio)
 #Identificar tipo de dato
