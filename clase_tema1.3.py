@@ -7,4 +7,4 @@ for i in range(1,2):
 
 notas =[6,8,9,10,3]
 for elemento in notas:
-    print(elemento)
+    print(elemento) 
