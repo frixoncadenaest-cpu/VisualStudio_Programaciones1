@@ -16,7 +16,7 @@ meses = (1,2,3,4,5,6,7,8,9,10,11,12)
 print(meses[0])
 print(meses[-1])
 #meses[3]=15 #error: tuplas son inmutables
-
+ 
 #diccionarios
 estudiante={
     "cedula": "123456789",
