@@ -48,11 +48,3 @@ def estudiantes(**lista_estudiantes):
         suma_total+=edad
         print("suma de edades: ", suma_total)
 estudiantes(Frixon=20, Juan=25, Maria=30, Andres=40, Gina=34, David=18, Alex=20)
-
-'''
-Menu de usuarios
-1.Ingrese el nombre: Mensaje de bienvenida
-2.Menu de preguntas: Le va a preguntar las 11 preguntas Pregunta 1: listas Pregunta 2: Diccionario... Salir: 12
-3.Salir
-
-'''
