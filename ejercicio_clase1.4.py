@@ -35,7 +35,7 @@ def mensaje_bienvenida():
 
 def menu_preguntas():
     while True: 
-        print("\n--- MENÚ DE PREGUNTAS ---")
+        print("--- MENÚ DE PREGUNTAS ---")
         print('1. ¿Qué imprime el siguiente código?: socio = {"nombre": "Ana", "saldo": 120}; print(socio.get("correo", "Sin correo"))')
         print('2. ¿Qué imprime el siguiente código?: print(int(9.99))')
         print('3. ¿Qué imprime el siguiente código?: print(type(10.0))')
@@ -86,5 +86,4 @@ def menu_preguntas():
                 print("Opción no válida. Por favor, elija un número entre 1 y 12.")
         except ValueError:
             print("Error: Debe ingresar un número entero válido.")
-if __name__ == "__main__":
-    menu_usuarios()
+menu_usuarios()
