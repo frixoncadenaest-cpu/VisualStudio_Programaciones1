@@ -48,7 +48,7 @@ print('Pregunta 10: ¿Qué imprime el siguiente código?: for i in range(3, 0, -
 for i in range(3, 0, -1):
     print(i, end=" ")
 
-print('11: Pida una frase y determine si es un palíndromo.')
+print('Pregunta 11: Pida una frase y determine si es un palíndromo.')
 frase = input("Ingrese una frase: ")
 frase_limpia = frase.replace(" ", "").lower()
 frase_invertida = frase_limpia[::-1]
